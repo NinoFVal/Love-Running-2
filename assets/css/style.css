@@ -35,7 +35,7 @@ header a {
 }
 
 h1 {
-    font-family: 'Oswald' sans-serif;
+    font-family: oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color:  #252525;
@@ -83,8 +83,47 @@ main {
     background-color: lightblue;
     /*makes mains element take up any surplus space to push footer down*/
     flex: 1 0 auto;
+    margin-top: 50px;
+    padding-left: 10px;
 }
 
 footer {
     background-color: orange;
 }
+
+/*media query: tablet and larger (768px)*/
+@media screen and (min-width: 768px) {
+    /*Header*/
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+        align-items: center;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label{
+        display:none ;
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /*Main content */
+    main {
+        margin-top: 82px;
+    }
+}
+    
