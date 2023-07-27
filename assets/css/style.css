@@ -1,0 +1,19 @@
+/*To remove default styleing set by browser*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+
+header {
+    background-color: lightcoral;
+}
+
+main {
+    background-color: lightblue;
+}
+
+footer {
+    background-color: orange;
+}
