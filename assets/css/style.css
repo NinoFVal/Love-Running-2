@@ -198,6 +198,17 @@ main {
   color: #3a3a3a;
 }
 
+/*Gallery Page*/
+
+#photos img {
+  width: 100%;
+  line-height: 1em;
+}
+
+#photos {
+  line-height: 0;
+}
+
 /*media query: tablet and larger (768px)*/
 @media screen and (min-width: 768px) {
   /*Header*/
